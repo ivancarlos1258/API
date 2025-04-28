@@ -6,6 +6,8 @@ Criar um banco
 Pode criar no Docker Desktop
 
 POSTGRES_USER = sa
+
 POSTGRES_PASSWORD = gbov2025@@
+
 POSTGRES_DB = gbov
 

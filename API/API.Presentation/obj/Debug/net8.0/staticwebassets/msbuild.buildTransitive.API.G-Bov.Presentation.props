@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\API.G-Bov.Presentation.props" />
+</Project>

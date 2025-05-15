@@ -1,0 +1,78 @@
+﻿@Api_HostAddress = https://localhost:44337
+@AccessAdmin = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlVzdcOhcmlvIFRlc3RlIiwicm9sZSI6IkFkbWluIiwiVXN1YXJpb0lkIjoiODkxODZjOGEtMzg5Mi00N2U2LTg4NWUtYzM3NmQ1M2QxNWIxIiwiQ2xpZW50ZUlkIjoiIiwibmJmIjoxNzQxNjMzODM0LCJleHAiOjE3NDE2NTU0MzQsImlhdCI6MTc0MTYzMzgzNH0.wzzSv0YkerX0fpZDRpgZIn8-SwlR9pyuUKeJ9q4tG5Q
+@AccessPadrao = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlVTVUFSSU8gVEVTVEUgMSIsInJvbGUiOiJQYWRyw6NvIiwiVXN1YXJpb0lkIjoiMDE5NTgxNzgtNGI3Yy03OWQ4LThhYTAtNTc3NDg0MDAwNTU0IiwiQ2xpZW50ZUlkIjoiNDY2MzQwNTQtN2Q0MS00YjhkLTlkMTAtYzQ5NmU0YjgzMDk5IiwibmJmIjoxNzQxNjMzOTUwLCJleHAiOjE3NDE2NTU1NTAsImlhdCI6MTc0MTYzMzk1MH0.t6iIf68681jyDIc7r0-AavNULxCBbhttGtxD-LzKLto
+@usuarioAdmin = 89186c8a-3892-47e6-885e-c376d53d15b1
+@usuarioNaoAdmin = 01956c3b-81f6-7fb3-9523-825bfab9a50e
+@fazendaId = 01958179-b92e-7c0a-9874-3eb92733f069
+
+@name getToken
+POST {{Api_HostAddress}}/v1/Auth
+Accept: application/json
+Content-Type: multipart/form-data; boundary=someboundary
+ 
+--someboundary
+content-disposition: form-data; name="identificador"
+content-type: text/plain:charset=UTF-8
+
+{{usuarioNaoAdmin}}
+--someboundary--
+
+###
+
+POST {{Api_HostAddress}}/v1/Fazenda
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{AccessPadrao}}
+{
+    "nome": "Fazenda Teste 1",
+    "cidadeId": 1768,
+    "estado": 12,
+    "latitude": "teste",
+    "longitude": "teste",
+    "observacao": "apenas um teste de cadastro",
+    "isAtivo": true
+}
+
+###
+
+GET {{Api_HostAddress}}/v1/Fazenda/{{fazendaId}}
+Accept: application/json
+Authorization: Bearer {{AccessPadrao}}
+
+###
+
+POST {{Api_HostAddress}}/v1/Picket
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{AccessPadrao}}
+{
+    "nome": "picket teste",
+    "descricao": "picket de teste",
+    "hectares": 2.4,
+    "capacidade": 100,
+    "isAtivo": true,
+    "tipoPastagem": 3,
+    "fazendaId": "{{fazendaId}}"
+}
+
+###
+
+GET {{Api_HostAddress}}/v1/Usuario/{{usuarioAdmin}}
+Accept: application/json
+Authorization: Bearer {{AccessPadrao}}
+
+###
+
+POST {{Api_HostAddress}}/v1/Usuario
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{AccessAdmin}}
+{
+    "nome": "Usuario teste 1",
+    "email": "matheus.bueno@rumosolucoes.com.br",
+    "senha": "senhateste@@",
+    "cpf": "65213797040",
+    "nascimento": "1993-04-05",
+    "telefone": "31994766615",
+    "clienteId": "46634054-7d41-4b8d-9d10-c496e4b83099"
+}

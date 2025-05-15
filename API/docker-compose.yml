@@ -1,0 +1,10 @@
+services:
+  api.g-bov.presentation:
+    image: ${DOCKER_REGISTRY-}apigbovpresentation
+    build:
+      context: .
+      dockerfile: API.G-Bov.Presentation/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=80
+

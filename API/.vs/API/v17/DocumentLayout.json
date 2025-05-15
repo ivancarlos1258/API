@@ -1,0 +1,380 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NOVO\\API\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|c:\\novo\\api\\api\\api.domain\\models\\dto\\cliente\\clientepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|solutionrelative:api.domain\\models\\dto\\cliente\\clientepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|c:\\novo\\api\\api\\api.domain\\models\\dto\\cliente\\clientegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|solutionrelative:api.domain\\models\\dto\\cliente\\clientegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|c:\\novo\\api\\api\\api.presentation\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|solutionrelative:api.presentation\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|c:\\novo\\api\\api\\api.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|solutionrelative:api.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\configuration\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\configuration\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\configuration\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\configuration\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|c:\\novo\\api\\api\\api.service\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|solutionrelative:api.service\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|c:\\novo\\api\\api\\api.presentation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|solutionrelative:api.presentation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|c:\\novo\\api\\api\\api.service\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|solutionrelative:api.service\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|c:\\novo\\api\\api\\api.service\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|solutionrelative:api.service\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|c:\\novo\\api\\api\\api.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C1D02B-B5A7-580B-216B-B62AC9F9737D}|API.Presentation\\API.Presentation.csproj|solutionrelative:api.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|c:\\novo\\api\\api\\api.domain\\models\\dto\\cliente\\clienteputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|solutionrelative:api.domain\\models\\dto\\cliente\\clienteputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\repository\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\repository\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|c:\\novo\\api\\api\\api.service\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|solutionrelative:api.service\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|c:\\novo\\api\\api\\api.service\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DF40B0-CC19-D47D-2F64-5B139E8ED965}|API.Service\\API.Service.csproj|solutionrelative:api.service\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\repository\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\repository\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|c:\\novo\\api\\api\\api.domain\\tablemodels\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|solutionrelative:api.domain\\tablemodels\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|c:\\novo\\api\\api\\api.domain\\tablemodels\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F4C135-EA95-5A36-36EC-E56CB0AE832C}|API.Domain\\API.Domain.csproj|solutionrelative:api.domain\\tablemodels\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|c:\\novo\\api\\api\\api.infra\\migrations\\20250312193601_estruturainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E89D03-521B-298C-DEB3-05906F93DCAD}|API.Infra\\API.Infra.csproj|solutionrelative:api.infra\\migrations\\20250312193601_estruturainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API.Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:30:52.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Presentation\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "API.Presentation\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Presentation\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "API.Presentation\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:30:42.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Service\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "API.Service\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Service\\Services\\ClienteService.cs",
+              "RelativeToolTip": "API.Service\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:19:42.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteGetDto.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Domain\\Models\\Dto\\Cliente\\ClienteGetDto.cs",
+              "RelativeDocumentMoniker": "API.Domain\\Models\\Dto\\Cliente\\ClienteGetDto.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Domain\\Models\\Dto\\Cliente\\ClienteGetDto.cs",
+              "RelativeToolTip": "API.Domain\\Models\\Dto\\Cliente\\ClienteGetDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:06:41.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientePostDto.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Domain\\Models\\Dto\\Cliente\\ClientePostDto.cs",
+              "RelativeDocumentMoniker": "API.Domain\\Models\\Dto\\Cliente\\ClientePostDto.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Domain\\Models\\Dto\\Cliente\\ClientePostDto.cs",
+              "RelativeToolTip": "API.Domain\\Models\\Dto\\Cliente\\ClientePostDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:26:48.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteConfiguration.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Configuration\\ClienteConfiguration.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Configuration\\ClienteConfiguration.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Configuration\\ClienteConfiguration.cs",
+              "RelativeToolTip": "API.Infra\\Configuration\\ClienteConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:36:22.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "API.Presentation\\Program.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Presentation\\Program.cs",
+              "RelativeToolTip": "API.Presentation\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:35:05.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioConfiguration.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Configuration\\UsuarioConfiguration.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Configuration\\UsuarioConfiguration.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Configuration\\UsuarioConfiguration.cs",
+              "RelativeToolTip": "API.Infra\\Configuration\\UsuarioConfiguration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:00:45.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Presentation\\Startup.cs",
+              "RelativeDocumentMoniker": "API.Presentation\\Startup.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Presentation\\Startup.cs",
+              "RelativeToolTip": "API.Presentation\\Startup.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:33:23.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Service\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "API.Service\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Service\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "API.Service\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvyAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:33:42.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "API.Infra\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:12:06.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Service\\Interfaces\\IClienteService.cs",
+              "RelativeDocumentMoniker": "API.Service\\Interfaces\\IClienteService.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Service\\Interfaces\\IClienteService.cs",
+              "RelativeToolTip": "API.Service\\Interfaces\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:21:20.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientePutDto.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Domain\\Models\\Dto\\Cliente\\ClientePutDto.cs",
+              "RelativeDocumentMoniker": "API.Domain\\Models\\Dto\\Cliente\\ClientePutDto.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Domain\\Models\\Dto\\Cliente\\ClientePutDto.cs",
+              "RelativeToolTip": "API.Domain\\Models\\Dto\\Cliente\\ClientePutDto.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:07:18.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\Interfaces\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Repository\\Interfaces\\IClienteRepository.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\Interfaces\\IClienteRepository.cs",
+              "RelativeToolTip": "API.Infra\\Repository\\Interfaces\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:17:18.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Service\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "API.Service\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Service\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "API.Service\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:21:14.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Service\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "API.Service\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Service\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "API.Service\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:19:32.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Repository\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "API.Infra\\Repository\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:17:10.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Context.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Context.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Context.cs",
+              "RelativeToolTip": "API.Infra\\Context.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:14:19.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "API.Infra\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:11:57.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Domain\\TableModels\\Cliente.cs",
+              "RelativeDocumentMoniker": "API.Domain\\TableModels\\Cliente.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Domain\\TableModels\\Cliente.cs",
+              "RelativeToolTip": "API.Domain\\TableModels\\Cliente.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:02:27.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Domain\\TableModels\\Usuario.cs",
+              "RelativeDocumentMoniker": "API.Domain\\TableModels\\Usuario.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Domain\\TableModels\\Usuario.cs",
+              "RelativeToolTip": "API.Domain\\TableModels\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:00:56.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250312193601_EstruturaInicial.cs",
+              "DocumentMoniker": "C:\\NOVO\\API\\API\\API.Infra\\Migrations\\20250312193601_EstruturaInicial.cs",
+              "RelativeDocumentMoniker": "API.Infra\\Migrations\\20250312193601_EstruturaInicial.cs",
+              "ToolTip": "C:\\NOVO\\API\\API\\API.Infra\\Migrations\\20250312193601_EstruturaInicial.cs",
+              "RelativeToolTip": "API.Infra\\Migrations\\20250312193601_EstruturaInicial.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwC0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:17:19.276Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
